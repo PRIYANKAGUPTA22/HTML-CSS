@@ -1,0 +1,179 @@
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+ul{
+    list-style: none;
+}
+header ul{
+    display: table;
+    float: right;
+    margin: 0;
+    padding:56px 15.4% 57px 0;
+    width: 50%;
+    box-sizing: border-box;
+}
+header ul>li{
+    display: table-cell;   
+}
+.about-open-charity-li{
+    /* padding:42px 34px 32px 0px;    */
+}
+.the-blog-li{
+    /* padding: 42px 34px 32px 15.4%; */
+}
+.logo{
+    display: inline-block;
+    padding: 56px 0px 57px 6.9%;
+}
+.about-open-charity {
+	font-family: "Museo Sans";
+	font-size: 28px;
+	font-weight: 500;
+	line-height:49px;
+	text-align: left;
+    color: #575656;
+}
+.the-blog {
+	font-family: "MuseoSans";
+	font-size: 28px;
+    font-weight: 500;
+    line-height: 49px;
+	text-align: left;
+    color: #575656;
+   
+}
+.mainSection{
+}
+.centralSection{
+    background-image: url('./images/hero.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 916px;
+}
+.centralSection>div{
+    padding-top: 153px;
+}
+.centralSection>ul{
+    width: 48.3%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-family: "OpenSans";
+}
+.centralSection>ul>li,.centralSection>div{
+    width: 100%;
+    text-align: center;
+    color: #d8d8d8;
+}
+.font70{
+    font-size: 70px;
+}
+.centralSection>ul>li>.line1{
+    font-size: 34px;   
+    font-weight: normal;
+    line-height: 1.9;
+}
+.centralSection>ul>li>.line2{
+    font-size: 28px;
+    line-height: 3.57;
+}
+.centralSection>ul>li>.line3{
+    font-size: 28px;
+    line-height: 1.64;
+}
+.registerContainer{
+    background-color: rgba(0, 0, 0, 0.0);   
+    width:100%; 
+}
+.registerDiv{
+    padding: 70px 0px 74px 6.7%;
+}
+.registerDiv>span{
+    height: 89px;
+	font-family: OpenSans;
+	font-size: 28px;
+	line-height: 2.0;
+	text-align: left;
+	color: #5b6172;
+}
+.lightGreen{
+    color: #61c0bd;
+}
+.graay{
+   color: #575656;
+}
+.lightGrayy{
+    color: #5b6172;
+}
+.registerDiv .nextEvent{
+    line-height: 88px;
+    /* font-weight: 34px; */
+}
+.registerDiv .timings{
+    line-height: 66px;
+    font-weight: 1.5;
+    /* font-weight: 34px; */
+}
+.registerDiv .date{
+    line-height: 66px;
+    /* font-weight: 34px; */
+}
+.font34{
+    font-size: 34px;
+}
+.font28{
+    font-size: 28px;
+}
+.registerButton{
+    padding: 26px 43px 15px 43px;
+    color: white;
+    background-color: #61c0bd;
+    margin-right: 146px;
+    float: right;
+}
+.clearBoth{
+    clear:both;
+}
+.getInvolved{
+    text-align: center;
+    color: #575656;
+    font-size: 52px;
+}
+.involveSection{
+
+}
+.involveSection ul>li{
+width:31%;
+float: left;
+text-align: center;
+/* margin:0px 1% 0px 1%; */
+}
+.involveSection ul>li h2{
+    text-align: center;
+    color: #575656;
+    font-weight: 500;
+    font-family: MuseoSans;
+}
+.involveSection ul>li>button{
+    text-align: center;
+    color: #61c0bd;
+    padding: 25px 86px 15px 87px;
+    background-color: rgb(255,255,255);
+    font-size: 28px;
+    border-color: #61c0bd;
+    font-family: MuseoSans;
+    font-weight: 500;
+}
+.involveSection ul>li p{
+    color:#5b6172;
+    font-family: OpenSans;
+    font-size: 22px;
+}
+.imageContainer{
+    height: 220px;
+}
+.textContainer{
+    height: 150px;
+}
